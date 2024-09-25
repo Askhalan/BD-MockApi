@@ -1,3 +1,5 @@
+import 'package:bd_mock_api/core/theme/theme.dart';
+import 'package:bd_mock_api/view/screens/home/scn_home.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -5,10 +7,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-    return  const MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Mock Api',
+      theme: JAppTheme.lightTheme,
+      darkTheme: JAppTheme.darkTheme,
+      home: const ScnHome(),
     );
   }
 }
