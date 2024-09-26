@@ -1,32 +1,19 @@
 class JImages {
-  // App Logos
-  static const String logoIcon = "assets/logos/logo_emb_primary.png";
-  static const String logoIconWhite = "assets/logos/logo_emblem_white.png";
-  static const String logoTextTag = "assets/logos/logo_text_tag.png";
-  static const String logoText = "assets/logos/logo_text.png";
-  static const String logoFull = "assets/logos/logo_full.png";
-  static const String logoGoogle = "assets/logos/logoGoogle.png";
-  static const String logoApple = "assets/logos/logoApple.png";
+  // ICONS
+  static const String accounts = "assets/icons/accounts.svg";
+  static const String arrowBottom = "assets/icons/arrow_bottom.svg";
+  static const String cart = "assets/icons/cart.svg";
+  static const String location = "assets/icons/location.svg";
+  static const String search = "assets/icons/search.svg";
+  static const String tag = "assets/icons/sale_tag.svg";
 
-  // -- Annimated Giffs
-  static const String createdSUccessfully = "";
-  static const String loading = "assets/animations/Animation - 1722833414565.json";
-  static const String searching = "";
-  static const String searchingGif = "";
-  static const String searching2 = "";
-  static const String empty = "a";
-  static const String emptyGif = "";
-
-  // -- Default Images
-  static const String defaultUser = "assets/images/default/defaultUserImages.jpeg";
-
-
-
-  // -- Temp Images
-  static const String user1 =
-      "assets/images/temp/pexels-danangwicaksono-539727.jpg";
-  static const String user2 =
-      "assets/images/temp/pexels-moh-adbelghaffar-922962.jpg";
-  static const String user3 =
-      "assets/images/temp/pexels-soldiervip-1382732.jpg";
+  //---------
+  static const String foodDelivery = "assets/icons/food_delivery.svg";
+  static const String medicines = "assets/icons/medicine_1.svg";
+  static const String petSupplies = "assets/icons/pet_supplies.svg";
+  static const String gifts = "assets/icons/gifts.svg";
+  static const String meat = "assets/icons/meat.svg";
+  static const String cosmetic = "assets/icons/cosmetic.svg";
+  static const String stationery = "assets/icons/stationery.svg";
+  static const String stores = "assets/icons/stores.svg";
 }

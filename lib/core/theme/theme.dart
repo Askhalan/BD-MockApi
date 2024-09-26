@@ -1,3 +1,4 @@
+import 'package:bd_mock_api/core/theme/widget_themes/text_field_theme.dart';
 import 'package:bd_mock_api/core/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'widget_themes/appbar_theme.dart';
@@ -23,6 +24,7 @@ class JAppTheme {
     bottomSheetTheme: JBottomSheetTheme.lightBottomSheetTheme,
     elevatedButtonTheme: JElevatedButtonTheme.lightElevatedButtonTheme,
     outlinedButtonTheme: JOutlinedButtonTheme.lightOutlinedButtonTheme,
+    inputDecorationTheme: JTextFormFieldTheme.lightInputDecorationTheme,
   );
 
 // +++++++----------------------------- DARK THEME -----------------------------+++++++
@@ -39,5 +41,6 @@ class JAppTheme {
     bottomSheetTheme: JBottomSheetTheme.darkBottomSheetTheme,
     elevatedButtonTheme: JElevatedButtonTheme.darkElevatedButtonTheme,
     outlinedButtonTheme: JOutlinedButtonTheme.darkOutlinedButtonTheme,
+    inputDecorationTheme: JTextFormFieldTheme.darkInputDecorationTheme,
   );
 }

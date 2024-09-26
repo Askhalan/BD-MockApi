@@ -21,6 +21,16 @@ class JTexts {
    static const String logout = "Logout";
 
   // -- HOME
+  static const String headerTitle = "What would you like to do today?";
+  //
+  static const String foodDelivery = "Food Delivery";
+  static const String medicines = "Medicines";
+  static const String petSupplies = "Pet Supplies";
+  static const String gifts = "Gifts";
+  static const String meat = "Meat";
+  static const String cosmetic = "Cosmetic";
+  static const String stationery = "Stationery";
+  static const String stores = "Stores";
 
 
   // -- NOTIFICATION
