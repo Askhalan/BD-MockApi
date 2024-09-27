@@ -16,4 +16,7 @@ class JImages {
   static const String cosmetic = "assets/icons/cosmetic.svg";
   static const String stationery = "assets/icons/stationery.svg";
   static const String stores = "assets/icons/stores.svg";
+
+  //----------
+  static const String topPicBanner = "assets/images/banner_fruit_slices.png";
 }

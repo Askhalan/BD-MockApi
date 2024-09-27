@@ -9,6 +9,7 @@ class JTexts {
   static const String save = "Save";
   static const String edit = "Edit";
   static const String done = "Done";
+  static const String checkNow = "CHECK NOW";
   static const String submit = "Submit";
   static const String appName = "T-Store";
   static const String tContinue = "Continue";
@@ -16,9 +17,9 @@ class JTexts {
   static const String SEE_MORE = "See more";
   static const String settings = "Settings";
   static const String tryAgain = "Try Again";
-   static const String saveChanges = "Save Changes";
-   static const String important = "Important";
-   static const String logout = "Logout";
+  static const String saveChanges = "Save Changes";
+  static const String important = "Important";
+  static const String logout = "Logout";
 
   // -- HOME
   static const String headerTitle = "What would you like to do today?";
@@ -32,9 +33,8 @@ class JTexts {
   static const String stationery = "Stationery";
   static const String stores = "Stores";
 
-
   // -- NOTIFICATION
-  
-  static const String homeappBarTitle = "Welcome back";
 
+  static const String homeappBarTitle = "Welcome back";
+  static const String topPicBannerTitle1 = "DISCOUNT 25% ALL FRUITS";
 }
