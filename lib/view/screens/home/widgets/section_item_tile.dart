@@ -47,14 +47,12 @@ class SectionItemTile extends StatelessWidget {
         JGap(),
         SizedBox(
           width: 70,
-          child: Flexible(
-            child: Text(
-              sectionTexts[index % 8],
-              textAlign: TextAlign.center,
-              maxLines: 2,
-              style: TextStyle(
-                fontSize: 13,
-              ),
+          child: Text(
+            sectionTexts[index % 8],
+            textAlign: TextAlign.center,
+            maxLines: 2,
+            style: TextStyle(
+              fontSize: 13,
             ),
           ),
         ),

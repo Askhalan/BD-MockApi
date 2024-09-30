@@ -22,9 +22,9 @@ class JOutlinedButtonTheme {
     textStyle: const TextStyle(fontSize: 16, color: JColor.primary, fontWeight: FontWeight.w600),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(JSize.buttonRadius)),
     minimumSize: const Size.fromHeight(50), // Ensure the button has a minimum height
-    maximumSize: Size(double.infinity, 50), // Ensure the button can expand to fill the width
+    maximumSize: const Size(double.infinity, 50), // Ensure the button can expand to fill the width
   ).copyWith(
-    fixedSize: WidgetStateProperty.all<Size>(Size(double.infinity, 50)),
+    fixedSize: WidgetStateProperty.all<Size>(const Size(double.infinity, 50)),
   ),
   );
 
@@ -39,9 +39,9 @@ class JOutlinedButtonTheme {
     // textStyle: const TextStyle(fontSize: 16, color: JColor.primary, fontWeight: FontWeight.w600),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(JSize.buttonRadius)),
     minimumSize: const Size.fromHeight(50), // Ensure the button has a minimum height
-    maximumSize: Size(double.infinity, 50), // Ensure the button can expand to fill the width
+    maximumSize: const Size(double.infinity, 50), // Ensure the button can expand to fill the width
   ).copyWith(
-    fixedSize: WidgetStateProperty.all<Size>(Size(double.infinity, 50)),
+    fixedSize: WidgetStateProperty.all<Size>(const Size(double.infinity, 50)),
   ),
   );
 }

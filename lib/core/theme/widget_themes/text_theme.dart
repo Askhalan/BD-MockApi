@@ -17,9 +17,9 @@ class JTextTheme {
 
     bodyLarge: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: JColor.dark),
     bodyMedium: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.normal, color: JColor.dark),
-    bodySmall: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: JColor.dark.withOpacity(0.5)),
+    bodySmall: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: JColor.dark.withOpacity(0.5)),
 
-    labelSmall: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: JColor.dark),
+    labelSmall: const TextStyle().copyWith(fontSize: 10.0, fontWeight: FontWeight.normal, color: JColor.dark),
     labelMedium: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.normal, color: JColor.dark),
     labelLarge: const TextStyle().copyWith(fontSize: 16.0, fontWeight: FontWeight.normal, color: JColor.dark),
 
@@ -37,9 +37,9 @@ class JTextTheme {
 
     bodyLarge: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: JColor.light),
     bodyMedium: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.normal, color: JColor.light),
-    bodySmall: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: JColor.light.withOpacity(0.5)),
+    bodySmall: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: JColor.light.withOpacity(0.5)),
 
     labelLarge: const TextStyle().copyWith(fontSize: 16.0, fontWeight: FontWeight.normal, color: JColor.light),
     labelMedium: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.normal, color: JColor.light),
-    labelSmall: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: JColor.light),);
+    labelSmall: const TextStyle().copyWith(fontSize: 10.0, fontWeight: FontWeight.normal, color: JColor.light),);
 }
