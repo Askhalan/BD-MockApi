@@ -16,7 +16,12 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   flutter_svg: ^2.0.7
+  timeago: ^3.7.0
   get: ^4.6.6
+  http: ^1.2.2
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  rename: ^3.0.2
 
 
 #---------------------- DEV PACKAGES ----------------------#
@@ -25,9 +30,19 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+
+
 
 flutter:
   uses-material-design: true
+
+
 
 
 #----------------------- LOCAL ASSETS ----------------------#

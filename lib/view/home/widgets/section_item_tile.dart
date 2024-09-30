@@ -2,8 +2,8 @@
 
 import 'package:bd_mock_api/core/utils/constants/colors.dart';
 import 'package:bd_mock_api/core/utils/helpers/helper_functions.dart';
-import 'package:bd_mock_api/view/screens/home/widgets/section_items_list.dart';
-import 'package:bd_mock_api/view/screens/widgets/gap.dart';
+import 'package:bd_mock_api/view/home/widgets/section_items_list.dart';
+import 'package:bd_mock_api/view/widgets/gap.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -20,8 +20,8 @@ class SectionItemTile extends StatelessWidget {
     return Column(
       children: [
         SizedBox(
-          height: 70,
-          width: 70,
+          // height: 70,
+          // width: 70,
           child: Container(
             padding: EdgeInsets.all(13),
             decoration: BoxDecoration(

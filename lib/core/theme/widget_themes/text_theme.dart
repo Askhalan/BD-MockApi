@@ -17,7 +17,7 @@ class JTextTheme {
 
     bodyLarge: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: JColor.dark),
     bodyMedium: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.normal, color: JColor.dark),
-    bodySmall: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: JColor.dark.withOpacity(0.5)),
+    bodySmall: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: JColor.dark),
 
     labelSmall: const TextStyle().copyWith(fontSize: 10.0, fontWeight: FontWeight.normal, color: JColor.dark),
     labelMedium: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.normal, color: JColor.dark),

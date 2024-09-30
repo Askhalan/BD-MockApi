@@ -2,7 +2,7 @@
 
 import 'package:bd_mock_api/core/utils/constants/colors.dart';
 import 'package:bd_mock_api/core/utils/constants/image_strings.dart';
-import 'package:bd_mock_api/view/screens/widgets/gap.dart';
+import 'package:bd_mock_api/view/widgets/gap.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 

@@ -3,9 +3,9 @@
 import 'package:bd_mock_api/core/utils/constants/colors.dart';
 import 'package:bd_mock_api/core/utils/constants/sizes.dart';
 import 'package:bd_mock_api/core/utils/constants/text_strings.dart';
-import 'package:bd_mock_api/view/screens/home/widgets/trending_grid_tile.dart';
-import 'package:bd_mock_api/view/screens/widgets/gap.dart';
-import 'package:bd_mock_api/view/screens/widgets/section_title.dart';
+import 'package:bd_mock_api/view/home/widgets/trending_grid_tile.dart';
+import 'package:bd_mock_api/view/widgets/gap.dart';
+import 'package:bd_mock_api/view/widgets/section_title.dart';
 import 'package:flutter/material.dart';
 
 class Trending extends StatelessWidget {

@@ -5,8 +5,8 @@ import 'package:bd_mock_api/core/utils/constants/image_strings.dart';
 import 'package:bd_mock_api/core/utils/constants/sizes.dart';
 import 'package:bd_mock_api/core/utils/constants/text_strings.dart';
 import 'package:bd_mock_api/core/utils/helpers/helper_functions.dart';
-import 'package:bd_mock_api/view/screens/widgets/banner_carousel.dart';
-import 'package:bd_mock_api/view/screens/widgets/gap.dart';
+import 'package:bd_mock_api/view/widgets/banner_carousel.dart';
+import 'package:bd_mock_api/view/widgets/gap.dart';
 import 'package:flutter/material.dart';
 
 class CrazeDeals extends StatelessWidget {

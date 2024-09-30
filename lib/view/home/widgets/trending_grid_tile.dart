@@ -3,7 +3,7 @@
 import 'package:bd_mock_api/core/utils/constants/image_strings.dart';
 import 'package:bd_mock_api/core/utils/constants/sizes.dart';
 import 'package:bd_mock_api/core/utils/constants/text_strings.dart';
-import 'package:bd_mock_api/view/screens/widgets/gap.dart';
+import 'package:bd_mock_api/view/widgets/gap.dart';
 import 'package:flutter/material.dart';
 
 class TrendingGridTile extends StatelessWidget {

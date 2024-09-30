@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:bd_mock_api/view/screens/widgets/gap.dart';
-import 'package:bd_mock_api/view/screens/widgets/section_title.dart';
+import 'package:bd_mock_api/view/widgets/gap.dart';
+import 'package:bd_mock_api/view/widgets/section_title.dart';
 import 'package:flutter/material.dart';
 
 class BannerCarousel extends StatelessWidget {
